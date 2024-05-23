@@ -210,6 +210,7 @@ struct vo_extra {
     struct encode_lavc_context *encode_lavc_ctx;
     void (*wakeup_cb)(void *ctx);
     void *wakeup_ctx;
+    struct sh_stream *stream;
 };
 
 struct vo_frame {

@@ -45,6 +45,7 @@
 #include "sub/osd.h"
 #include "osdep/io.h"
 #include "osdep/threads.h"
+#include "demux/stheader.h"
 
 extern const struct vo_driver video_out_mediacodec_embed;
 extern const struct vo_driver video_out_x11;
